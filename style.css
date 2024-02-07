@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height:100vh;
+    background: url('./bg2.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ body{
+    text-align: center;
+    background-color: rgb(38, 183, 62);
+} 
+.container{
+    height: 70vh;
+    display: flex;
+     flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.7);
+    font-size: 8vmin;
+    color: rgb(3, 8, 8);
+    background-color: #eff1ea;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+.mesContainer
+{
+    height: 100vmin;
+    font-size: 5vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10vmin;
+}
+#New-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+.hide
+{
+    display: none;
+}
